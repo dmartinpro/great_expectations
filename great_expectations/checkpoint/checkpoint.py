@@ -57,7 +57,7 @@ class Checkpoint(BaseModel):
     """
     A Checkpoint is the primary means for validating data in a production deployment of Great Expectations.
 
-    Checkpoints provide a convenient abstraction for running a number of validation definnitions and triggering a set of actions
+    Checkpoints provide a convenient abstraction for running a number of validation definitions and triggering a set of actions
     to be taken after the validation step.
 
     Args:
